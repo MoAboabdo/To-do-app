@@ -3,8 +3,8 @@ import connectDB from './config/db.js';
 import colors from 'colors';
 import dotenv from 'dotenv';
 import { notFound, errorHandler } from './middleware/errorMiddleware.js';
-import userRoute from './routes/users.js';
-import todoRoute from './routes/todos.js';
+import userRoute from './routes/userRoutes.js';
+import todoRoute from './routes/todoRoutes.js';
 
 dotenv.config();
 

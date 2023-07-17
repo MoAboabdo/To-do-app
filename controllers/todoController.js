@@ -1,5 +1,4 @@
-import User from '../models/userModel';
-import Todo from '../models/todoModel';
+import Todo from '../models/todoModel.js';
 
 // @route     POST api/todo
 // @desc      Create todo

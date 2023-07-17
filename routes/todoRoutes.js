@@ -1,7 +1,7 @@
 import express from 'express';
 const router = express.Router();
 
-import auth from '../middleware/authMiddleware';
+import auth from '../middleware/authMiddleware.js';
 
 import {
   addTodo,
@@ -9,7 +9,7 @@ import {
   deleteTodo,
   getAllTodo,
   getTodoInfo,
-} from '../controllers/todoController';
+} from '../controllers/todoController.js';
 
 router.post('/todo', auth, addTodo);
 
